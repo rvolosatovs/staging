@@ -105,6 +105,7 @@
             buildInputs = [
               pkgs.age
               pkgs.aws
+              pkgs.nixos-manpages
               pkgs.nixUnstable
               pkgs.openssl
               pkgs.sops
