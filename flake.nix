@@ -13,7 +13,7 @@
   inputs.flake-compat.url = github:edolstra/flake-compat;
   inputs.flake-utils.url = github:numtide/flake-utils;
   inputs.nixlib.url = github:nix-community/nixpkgs.lib;
-  inputs.nixpkgs.url = github:profianinc/nixpkgs;
+  inputs.nixpkgs.url = github:profianinc/nixpkgs/staging;
   inputs.sops-nix.inputs.nixpkgs.follows = "nixpkgs";
   inputs.sops-nix.url = github:Mic92/sops-nix;
   inputs.steward-production.url = github:profianinc/steward/v0.1.0;
